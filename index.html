@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="main-container">
         <div class="button-container">
-            <button class="button">
+            <button class="button" onclick="playRound('rock')">
                 Rock
             </button>
-            <button class="button">
+            <button class="button" onclick="playRound('paper')">
                 Paper
             </button>
-            <button class="button">
+            <button class="button" onclick="playRound('scissors')">
                 Scissors
             </button>
         </div>
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="announcer-container">
-            Satanbas
+            Press any button to start playing
         </div>
     </div>
 </body>
